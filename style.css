@@ -1,0 +1,31 @@
+body {
+    background-color: rgba(238, 253, 255, 0.726);
+    color: rgb(127, 114, 173);
+    margin: 0;
+    letter-spacing: 2px;
+    line-height: 2;
+}
+a {
+    color: rgb(230, 168, 255);
+    text-decoration: none;
+}
+h1 {
+    font-size: 45px;
+    text-align: center;
+    border-bottom: 3px solid rgb(176, 223, 255);
+    margin: 0;
+    padding: 50px;
+}
+#grid ol {
+    border-right: 3px solid  rgb(176, 223, 255);
+    width: 150px;
+    margin: 0; margin-left: 30px;
+    padding: 20px;
+}
+#grid {
+    display: grid;
+    grid-template-columns: 150px 1fr;
+}
+#grid #article {
+    padding-left: 120px;
+}
